@@ -2,7 +2,7 @@
 permalink: storage/concept-element-replication-create-custom-replication-policy.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, custom, replication, policy, relationship, 
-summary: 'È possibile creare un criterio di replica personalizzato utilizzando l"interfaccia CLI di ONTAP se il criterio predefinito per una relazione non è adatto.' 
+summary: È possibile creare un criterio di replica personalizzato se il criterio predefinito per una relazione non è adatto. 
 ---
 = Creare un criterio di replica personalizzato
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'È possibile creare un criterio di replica personalizzato utilizzando 
 
 
 [role="lead"]
-È possibile utilizzare un criterio predefinito o personalizzato quando si crea una relazione di replica utilizzando l'interfaccia CLI di ONTAP. Per un criterio di replica unificato personalizzato, è necessario definire una o più _regole_ che determinano quali copie snapshot vengono trasferite durante l'inizializzazione e l'aggiornamento.
+È possibile utilizzare un criterio predefinito o personalizzato quando si crea una relazione di replica. Per un criterio di replica unificato personalizzato, è necessario definire una o più _regole_ che determinano quali copie snapshot vengono trasferite durante l'inizializzazione e l'aggiornamento.
 
 È possibile creare un criterio di replica personalizzato se il criterio predefinito per una relazione non è adatto. Ad esempio, è possibile comprimere i dati in un trasferimento di rete o modificare il numero di tentativi eseguiti da SnapMirror per trasferire le copie snapshot.
 

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-create-replication-relationship.html 
 sidebar: sidebar 
-keywords: element, ui, create, relationship, element, source, ontap, destination 
+keywords: element, ui, create, relationship, element, source, ontap, destination, cli 
 summary: SnapMirror può essere utilizzato per replicare le copie Snapshot di un volume Element in un sistema di destinazione ONTAP. In caso di disastro nel sito Element, è possibile inviare i dati ai client dal sistema ONTAP, quindi riattivare il volume di origine Element al ripristino del servizio. 
 ---
 = Creare una relazione da un'origine elemento a una destinazione ONTAP
@@ -22,7 +22,7 @@ SnapMirror può essere utilizzato per replicare le copie Snapshot di un volume E
 +
 [NOTE]
 ====
-È possibile eseguire questa attività solo nell'interfaccia utente Web del software Element.
+È possibile eseguire questa attività solo in link:concept_snapmirror_labels.html["UI web del software Element"]o utilizzando link:../api/concept_element_api_snapshots_overview.html["Metodi API"].
 
 ====
 

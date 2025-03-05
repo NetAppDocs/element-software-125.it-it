@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-make-destination-volume-writeable.html 
 sidebar: sidebar 
-keywords: make, destination, volume, write 
+keywords: ontap, cli, make, destination, volume, write 
 summary: È necessario rendere il volume di destinazione scrivibile prima di poter inviare i dati dal volume ai client. È possibile utilizzare il comando quiesce di snapmirror per interrompere i trasferimenti pianificati verso la destinazione, il comando di interruzione di snapmirror per interrompere i trasferimenti in corso e il comando di interruzione di snapmirror per rendere la destinazione scrivibile. 
 ---
 = Rendere il volume di destinazione scrivibile

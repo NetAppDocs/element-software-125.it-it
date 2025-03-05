@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-initialize-replication-relationship.html 
 sidebar: sidebar 
-keywords: initialize, replication, relationship 
+keywords: ontap, cli, initialize, replication, relationship 
 summary: 'Per tutti i tipi di relazione, l"inizializzazione esegue un trasferimento di base: Crea una copia snapshot del volume di origine, quindi trasferisce tale copia e tutti i blocchi di dati a cui fa riferimento nel volume di destinazione.' 
 ---
 = Inizializzare una relazione di replica
@@ -17,6 +17,12 @@ Per tutti i tipi di relazione, l'inizializzazione esegue un trasferimento _basel
 * Il nodo Element contenente il volume da replicare deve essere stato reso accessibile a ONTAP.
 * Il volume Element deve essere stato abilitato per la replica di SnapMirror.
 * Se si utilizza il tipo di criterio "speculare-vault", è necessario configurare un'etichetta SnapMirror per la replica delle copie snapshot dell'elemento.
++
+[NOTE]
+====
+È possibile eseguire questa attività solo in link:concept_snapmirror_labels.html["UI web del software Element"]o utilizzando link:../api/concept_element_api_snapshots_overview.html["Metodi API"].
+
+====
 
 
 .A proposito di questa attività
